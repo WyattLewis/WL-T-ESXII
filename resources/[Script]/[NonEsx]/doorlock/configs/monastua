@@ -1,0 +1,40 @@
+
+
+
+-- portail1
+table.insert(Config.DoorList, {
+	lockpick = false,
+	objHash = 575680671,
+	authorizedJobs = { ['medellin']=0 },
+	maxDistance = 6.0,
+	locked = true,
+	slides = true,
+	garage = false,
+	audioRemote = false,
+	fixText = false,
+	objCoords = vector3(-1876.942, 195.4646, 83.34268),
+	objHeading = 126.71605682374,		
+	-- oldMethod = true,
+	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+	-- autoLock = 1000
+})
+
+-- portail2
+table.insert(Config.DoorList, {
+	lockpick = false,
+	objHash = 575680671,
+	authorizedJobs = { ['medellin']=0 },
+	maxDistance = 6.0,
+	locked = true,
+	slides = true,
+	garage = false,
+	audioRemote = false,
+	fixText = false,
+	objCoords = vector3(-1870.814, 187.0842, 83.34268),
+	objHeading = 306.01602172852,		
+	-- oldMethod = true,
+	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
+	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
+	-- autoLock = 1000
+})
